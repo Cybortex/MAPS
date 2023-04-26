@@ -1,62 +1,45 @@
 body {
-    background: linear-gradient(to bottom right, #5c6bc0, #ab47bc);
-  }
-  
-  .container {
-    max-width: 800px;
-    margin: auto;
-    padding: 50px;
-    text-align: center;
-    background-color: #ffffff;
-    border-radius: 5px;
-  }
-  
-  h1 {
-    font-size: 48px;
-    color: #000000;
-    margin-bottom: 10px;
-  }
-  
-  h2 {
-    font-size: 24px;
-    color: #000000;
-    margin-bottom: 20px;
-  }
-  
-  p {
-    font-size: 18px;
-    color: #000000;
-    margin-bottom: 20px;
-  }
-  
-  a {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #5c6bc0;
-    color: #ffffff;
-    text-decoration: none;
-    margin-top: 20px;
-    border-radius: 5px;
-    font-size: 18px;
-  }
-  
-  img {
-    display: block;
-    margin: auto;
-    width: 288px;
-    height: 384px;
-    margin-bottom: 20px;
-  }
-  
-  @media only screen and (max-width: 600px) {
-    h1 {
-      font-size: 36px;
-    }
-    h2 {
-      font-size: 20px;
-    }
-    p {
-      font-size: 16px;
-    }
-  }
-  
+  font-family: Comic Sans MS, sans-serif;
+  background-color: #ffffff;
+  background-image: linear-gradient(to bottom right, #8a72b0, #3c73a8);
+  color: #000000;
+  text-align: center;
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: Arial, sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 20px;
+}
+
+img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: 384px;
+  width: 288px;
+}
+
+.zoom-link {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  margin: 20px;
+}
+
+.contact-info {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  margin: 20px;
+}
